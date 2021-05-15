@@ -1,4 +1,21 @@
 baseURL      = "http://e-onion.org/"
 languageCode = "ja-jp"
 title        = "放浪書庫運営委員会公式ブログ"
-theme        = "hugo-eureka"
+theme        = "hugo-bearblog"
+
+[params]
+	author = "Ned Rihine"
+	description = "放浪書庫を運営する委員会の人が書くブログです。(多分)"
+    	githubUsername = "#"
+    	accent = "red"
+    	showBorder = true
+    	backgroundColor = "white"
+    	font = "Raleway" # should match the name on Google Fonts!
+    	highlight = true
+    	highlightStyle = "default"
+    	highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift", "makefile"]
+
+[[menu.main]]
+	url = "/posts/"
+    	name = "Posts"
+    	weight = 3
