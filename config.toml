@@ -1,24 +1,24 @@
-baseURL      = "http://e-onion.org/"
-languageCode = "ja-jp"
-title        = "放浪書庫運営委員会公式ブログ"
-theme        = "diary"
+baseURL             = "http://e-onion.org/"
+languageCode        = "ja-jp"
+title               = "放浪書庫運営委員会公式ブログ"
+theme               = "diary"
 
 [permalinks]
-posts = "/:year/:month/:day/:filename/"
+posts               = "/:year/:month/:day/:filename/"
 
 [[menu.main]]
-name   = "Archive"
-url    = "/posts"
-weight = 1
+name                = "Archive"
+url                 = "/posts"
+weight              = 1
 
 [markup]
 
 [markup.highlight]
-codeFences        = true
-guessSyntax       = true
-hl_Lines          = ""
-lineNoStart       = 1
-lineNos           = true
-lineNumberInTable = false
-noClasses         = true
-style             = "github"
+codeFences          = true
+guessSyntax         = true
+hl_Lines            = ""
+lineNoStart         = 1
+lineNos             = true
+lineNumberInTable   = false
+noClasses           = true
+style               = "github"
