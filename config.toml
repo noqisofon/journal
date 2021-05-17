@@ -11,7 +11,6 @@ name   = "Archive"
 url    = "/posts"
 weight = 1
 
-
 [markup]
 
 [markup.highlight]
