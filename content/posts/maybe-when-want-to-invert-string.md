@@ -1,13 +1,14 @@
 ---
-title: "あと Raku で文字列を反転したい時にたぶんやること"
+title: "Raku で文字列を反転したい時にたぶんやること"
 date: 2021-05-17T08:41:18+09:00
+lastUpdated: 2021-05-18T12:20:00+09:00
 draft: false
 ---
 
 多分こんな風にやると思うんだけど:
 
 ``` raku
-say 'begin'.reverse;    # => (begin)
+say 'begin'.reverse;                        # => (begin)
 ```
 
 このコードは `'begin'`
@@ -20,11 +21,11 @@ say 'begin'.reverse;    # => (begin)
 文字列を反転できるはずだ。
 
 ``` raku
-say 'begin'.split('').reverse.join('');    # => nigeb
+say 'begin'.split('').reverse.join('');     # => nigeb
 ```
 
 で、 `Str` クラスにはそのものズバリのメソッド `.flip` が存在する:
 
 ``` raku
-say 'begin'.flip;    # => nigeb
+say 'begin'.flip;                           # => nigeb
 ```
