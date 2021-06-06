@@ -3,7 +3,7 @@ defaultContentLanguage = "ja"
 hasCJKLanguage         = true
 languageCode           = "ja-jp"
 theme                  = "diary"
-title                  = "放浪書庫運営委員会公式ブログ"
+title                  = "うぃーくりー・あんだーわーるど・にゅーす"
 
 [params]
 AuthorName             = "Ned Rihine"
