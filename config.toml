@@ -2,7 +2,7 @@ baseURL                = "http://e-onion.netlify.app"
 defaultContentLanguage = "ja"
 hasCJKLanguage         = true
 languageCode           = "ja-jp"
-theme                  = "diary"
+theme                  = "ronu-hugo-theme"
 title                  = "うぃーくりー・あんだーわーるど・にゅーす"
 
 [params]
