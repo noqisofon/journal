@@ -2,13 +2,12 @@ baseURL                = "http://e-onion.netlify.app"
 defaultContentLanguage = "ja"
 hasCJKLanguage         = true
 languageCode           = "ja-jp"
-theme                  = "ronu-hugo-theme"
+theme                  = "hugo-bearblog"
 title                  = "うぃーくりー・あんだーわーるど・にゅーす"
 
 [params]
 AuthorName             = "Ned Rihine"
 GitHubUser             = "noqisofon"
-
 
 [permalinks]
 posts                  = "/:year/:month/:day/:filename/"
