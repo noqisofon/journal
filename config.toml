@@ -2,7 +2,7 @@ baseURL                = "http://e-onion.netlify.app"
 defaultContentLanguage = "ja"
 hasCJKLanguage         = true
 languageCode           = "ja-jp"
-theme                  = "hugo-bearblog"
+theme                  = "blackburn"
 title                  = "うぃーくりー・あんだーわーるど・にゅーす"
 
 [params]
