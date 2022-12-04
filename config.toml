@@ -2,7 +2,7 @@ baseURL                = "http://e-onion.netlify.app"
 defaultContentLanguage = "ja"
 hasCJKLanguage         = true
 languageCode           = "ja-jp"
-theme                  = "blackburn"
+theme                  = "ronu"
 title                  = "うぃーくりー・あんだーわーるど・にゅーす"
 
 [params]
