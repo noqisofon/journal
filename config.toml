@@ -1,8 +1,8 @@
-baseURL                = "http://e-onion.netlify.app"
+baseURL                = "http://noqisofon.blog"
 defaultContentLanguage = "ja"
 hasCJKLanguage         = true
 languageCode           = "ja-jp"
-theme                  = "ronu"
+theme                  = "strange-case"
 title                  = "うぃーくりー・あんだーわーるど・にゅーす"
 
 [params]
