@@ -2,7 +2,7 @@
 title: Scoop をインストールしてみる
 description: ぷにゃにゃー！
 pubDate: 2024-12-08T22:44:51.889832+09:00
-draft: true
+draft: false
 ---
 
 ## インストールする
