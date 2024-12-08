@@ -1,31 +1,33 @@
-baseURL                = "http://noqisofon.blog"
+baseURL = "http://noqisofon.blog"
 defaultContentLanguage = "ja"
-hasCJKLanguage         = true
-languageCode           = "ja-jp"
-theme                  = "strange-case"
-title                  = "うぃーくりー・あんだーわーるど・にゅーす"
+hasCJKLanguage = true
+languageCode = "ja-jp"
+theme = "strange-case"
+title = "うぃーくりー・あんだーわーるど・にゅーす"
 
 [params]
-AuthorName             = "Ned Rihine"
-GitHubUser             = "noqisofon"
+AuthorName = "Ned Rihine"
+GitHubUser = "noqisofon"
+colorScheme = "scheme-lightbrown"
+DateFormat = "2022-01-23"
 
 [permalinks]
-posts                  = "/:year/:month/:day/:filename/"
+posts = "/:year/:month/:day/:filename/"
 
 [[menu.main]]
-name                   = "Archive"
-url                    = "/posts"
-weight                 = 1
+name = "Archive"
+url = "/posts"
+weight = 1
 
 [markup]
 
 [markup.highlight]
-codeFences             = true
-guessSyntax            = true
-hl_Lines               = ""
-lineNos                = true
-lineNoStart            = 1
-lineNumberInTable      = false
-noClasses              = true
-style                  = "github"
-tabWidth               = 4
+codeFences = true
+guessSyntax = true
+hl_Lines = ""
+lineNos = true
+lineNoStart = 1
+lineNumberInTable = false
+noClasses = true
+style = "github"
+tabWidth = 4
